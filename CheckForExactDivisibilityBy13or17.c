@@ -30,11 +30,5 @@ int main() {
         printf("Girilen sayi: %d, 13 veya 17 tam olarak bolunmez.", girilenSayi);
     }
 
-
-
-
-
-
-
     return 0;
 }

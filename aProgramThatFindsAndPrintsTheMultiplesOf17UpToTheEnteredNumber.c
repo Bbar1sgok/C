@@ -16,7 +16,9 @@ int main() {
         if( i % 17 == 0){
 
             printf("%5d", i);
-            satirElemani++;
+
+            // Consolda aynı satırda 10 değer bastıktan sonra alt satıra geçmek için kullanılır.
+            satirElemani++; 
             if(satirElemani % 10 == 0){
 
                 printf("\n");
@@ -28,10 +30,6 @@ int main() {
         i++;
 
     }
-
-
-
-
 
 
     return 0;

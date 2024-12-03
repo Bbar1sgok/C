@@ -5,7 +5,7 @@
 int main()
 {
     
-
+    // Kullanıcıdan bir n değeri girmesini isteyin 1+ 1/2+ 1/3+ 1/n değerini hesaplayınız    
 
     int n,i;
     double sonuc;
@@ -20,9 +20,6 @@ int main()
     }
 
     printf("%.2f", sonuc);
-
-
-
 
     return 0;
 }

@@ -7,19 +7,22 @@ int main()
     
     // Kullanıcıdan bir n değeri girmesini isteyin 1 + 1/2 + 1/3 + 1/n değerini hesaplayınız    
 
-    int n,i;
+   int n,i;
     double sonuc;
 
-    printf("Lutfen hesaplamak istediginiz sayiyi giriniz: \n");
-    scanf("%d", &n);
+    do{
 
-    for(i = 1; i <= n; i++){
+        printf("Lutfen pozitif bir tam sayi giriniz: \n");
+        scanf("%d", &n);
 
-        sonuc += 1.0/i;
+        for(i = 1; i <= n; i++){
 
-    }
+            sonuc += 1.0/i;
+        }
 
-    printf("%.2f", sonuc);
+    }while(n < 1);
+
+    printf("Sonuc: %.2f", sonuc);
 
     return 0;
 }

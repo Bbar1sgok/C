@@ -10,7 +10,6 @@ int main() {
         konuşmanın ücretini hesaplayan bir c programı yazınız.
     */
 
-
     int sure,ucret;
 
     printf("Lutfen telefon konusma surenizi giriniz (dakika cinsinden):\n");
@@ -19,17 +18,14 @@ int main() {
     if(sure <= 3){
 
         ucret = 4;
-
     }
     else{
 
         ucret = 4 + (sure - 3) * 1;
-
     }
 
     printf("Toplam odemeniz gereken fatura: %d", ucret);
 
-
-
+    
     return 0;
 }

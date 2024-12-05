@@ -19,22 +19,15 @@ int main() {
     if(carpim == 0){
 
         printf("Sonuc: %.0f Sifir sayisi pozitiflik ve negatiflik temsil etmez.", carpim);
-
     }
     else if(carpim < 0){
 
         printf("Sonuc: %.0f carpimin sonucu negatif bir sayidir.", carpim);
-
     }
     else{
 
         printf("Sonuc: %.0f carpimin sonucu pozitif bir tam sayidir.", carpim);
-
     }
-
-
-
-
 
     return 0;
 }

@@ -9,8 +9,6 @@ int main() {
 
         '+' operatörü için  1/a + 1/b, '-' operatörü için 1/a - 1/b işlemlerinin sonucunu basit kesir cinsinden bulunuz.
         Girilen a ve b değerlerinin biri 0 ise işlemin yapılamayacağını bir mesaj ile beliritiniz.
-
-
     */
 
     char girilenOp;
@@ -39,13 +37,11 @@ int main() {
 
                 sonuc = 1.0/girilenA - 1.0/girilenB;
                 printf("Kesirlerin farki: %.2f",sonuc);
-
             }
         }
         else{
 
             printf("Bir sayinin sifira bolumu tanimsizdir.İslem yapilamaz.");
-
         }
 
     }
@@ -53,7 +49,6 @@ int main() {
 
         printf("Yanlis giris yapildi.");
     }
-
 
 
     return 0;

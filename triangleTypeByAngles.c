@@ -14,7 +14,6 @@ int main() {
     printf("Lutfen ucgenin ic acilarini giriniz (aci1 aci2 aci3):\n");
     scanf("%f %f %f", &aci1, &aci2, &aci3);
 
-
     toplamAci = aci1 + aci2 + aci3;
 
     // Üçgenin açıları geçerli mi diye kontrol ediyoruz

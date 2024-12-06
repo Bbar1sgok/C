@@ -11,7 +11,6 @@ int main()
     double sonuc;
 
     do{
-
         printf("Lutfen pozitif bir tam sayi giriniz: \n");
         scanf("%d", &n);
 

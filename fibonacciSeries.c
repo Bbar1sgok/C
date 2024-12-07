@@ -13,7 +13,7 @@ int main() {
     printf("Fibonacci serisinin kaca kadar hesaplanmasini istiyorsunuz:\n");
     scanf("%d", &girilenSayi);
 
-    for(i = 1; i <=n; i++){
+    for(i = 1; i <= girilenSayi; i++){
 
             if(i == 1){
 

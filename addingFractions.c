@@ -12,7 +12,7 @@ int main()
 
     do{
         printf("Lutfen pozitif bir tam sayi giriniz: \n");
-        scanf("%d", &n);
+        scanf("%d ", &n);
 
         for(i = 1; i <= n; i++){
 

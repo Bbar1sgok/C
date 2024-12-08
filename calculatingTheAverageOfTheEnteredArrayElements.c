@@ -28,7 +28,7 @@ int main() {
 
     // Ortalamayı hesaplayıp yazdırıyoruz
     ortalama = toplam / n;
-    printf("Girmis oldugunuz dizi elemanlarinin ortalamasi: %.2f", ortalama);  yazdırılıyor
+    printf("Girmis oldugunuz dizi elemanlarinin ortalamasi: %.2f", ortalama); 
 
     return 0;
 }

@@ -60,7 +60,6 @@ int main()
         Klavyeden girilen iki tamsayının toplamını, farkını, çarpımını ve bölümünü gerçekleştiren C programını fonksiyonla yazınız.
     */
 
-
     int girilenSayi1, girilenSayi2;
     char islemTutucu;
 
@@ -73,11 +72,7 @@ int main()
     printf("Lutfen ikinci sayiyi giriniz: \n");
     scanf("%d", &girilenSayi2);
 
-
     dortIslem(islemTutucu,girilenSayi1,girilenSayi2);
-
-
-
 
     return 0;
 }

@@ -14,7 +14,6 @@ int ikininKatiMi(int sayi){
         return 0;
     }
 
-
 }
 
 // Üçün katı mı diye kontrol ediyoruz
@@ -55,5 +54,6 @@ int main()
 
         printf("Sayimiz 6 ile tam bolunur.");
     }
+    
     return 0;
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 4 islemi gerceklestiren fonksiyon
+// Dört islemi gerceklestiren fonksiyon
 void dortIslem(char *secilenISlem, float *sayi1, float *sayi2){
 
     switch(*secilenISlem){

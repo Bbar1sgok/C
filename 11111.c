@@ -16,16 +16,6 @@ char sekme[MAYIN_TARLASI_BOYUTLANDIRMA + 2][MAYIN_TARLASI_BOYUTLANDIRMA + 2];
 int mayin_sayim, yerlestirilen_mayin_sayisi = 0;
 int d_sayac;
 
-// Projede Kullanýlan Fonksiyonlar
-
-void alt_tablo_olusturma(); // Alt tabloyu oluþturmayý saðlar.
-void initialiser_tableau(); // Ýlk olarak tablonun initialiser etmesini saðlar.
-void alt_tablo_bastirma(); // Alt tablomu bastýrmamý saðlar.
-void afficher_tableau(); // Tablomu bastuýrmamý saðlar.
-void mayin_yerlestirme(); // Mayýnlarý yerleþtir.
-void verifiermatchgagner(); // Oyuncunun kazanýp kazanmadýðýnýn kontrolünü saðlar.
-void explorer(); // Mayýn tarlasýnýn keþfini saðlar.
-int creuser(int ligne, int colonne); // MAyýn tarlasýnýn içerisindeki istenilen koordinatýn açýlmasýnda görev alýr.
 
 int main()
 {

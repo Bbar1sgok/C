@@ -1,59 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// İkinin katı mı diye kontrol ediyoruz
-
-int ikininKatiMi(int sayi){
-
-    if(sayi % 2 == 0){
-
-        return 1;
+// Checking if the number is divisible by 2
+int isMultipleOfTwo(int number){
+    if(number % 2 == 0){
+        return 1;  
     }
     else{
-
-        return 0;
+        return 0;  
     }
-
 }
 
-// Üçün katı mı diye kontrol ediyoruz
-
-int ucunKatiMi(int sayi){
-
-    if(sayi % 3 == 0){
-
-        return 1;
+// Checking if the number is divisible by 3
+int isMultipleOfThree(int number){
+    if(number % 3 == 0){
+        return 1;  
     }
     else{
-
-        return 0;
+        return 0;  
     }
-
 }
-
-
 
 int main()
 {
-    int girilenSayi;
+    int enteredNumber;
 
-    printf("Lutfen bir tam sayi giriniz:\n");
-    scanf("%d", &girilenSayi);
+    printf("Please enter an integer:\n");
+    scanf("%d", &enteredNumber);
 
-    if(ikininKatiMi(girilenSayi) == 1){
-
-        printf("Sayimiz cift sayidir.\n");
+    if(isMultipleOfTwo(enteredNumber) == 1){
+        printf("The number is even.\n");
     }
-    
-    if(ucunKatiMi(girilenSayi) == 1){
 
-        printf("Sayimiz 3 ile tam  bolunur.\n");
+    if(isMultipleOfThree(enteredNumber) == 1){
+        printf("The number is divisible by 3.\n");
     }
-    
-    if(ikininKatiMi(girilenSayi) == 1 && ucunKatiMi(girilenSayi) == 1){
 
-        printf("Sayimiz 6 ile tam bolunur.");
+    if(isMultipleOfTwo(enteredNumber) == 1 && isMultipleOfThree(enteredNumber) == 1){
+        printf("The number is divisible by 6.\n");
     }
-    
+
     return 0;
 }

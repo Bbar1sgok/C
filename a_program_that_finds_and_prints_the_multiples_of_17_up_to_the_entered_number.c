@@ -5,11 +5,10 @@
 
 int main() {
 
-    int limit, i = 0, satirElemani = 0;
+    int limit, i = 0, rowElements = 0;
 
-    printf("Lutfen sorgulamak istediginiz sayiyi giriniz: ");
+    printf("Please enter the number you want to check: ");
     scanf("%d", &limit);
-
 
     while(i <= limit){
 
@@ -17,12 +16,10 @@ int main() {
 
             printf("%5d", i);
 
-            // Consolda aynı satırda 10 değer bastıktan sonra alt satıra geçmek için kullanılır.
-            satirElemani++; 
-            if(satirElemani % 10 == 0){
-
+            // Used to move to a new line after printing 10 values in the console.
+            rowElements++; 
+            if(rowElements % 10 == 0){
                 printf("\n");
-
             }
 
         }
@@ -30,7 +27,6 @@ int main() {
         i++;
 
     }
-
 
     return 0;
 }
